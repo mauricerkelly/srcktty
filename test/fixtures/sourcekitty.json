@@ -1,0 +1,1854 @@
+[{
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.substructure" : [
+      {
+        "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+        "key.parsed_declaration" : "class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate",
+        "key.annotated_decl" : "<Declaration>@UIApplicationMain class AppDelegate : <Type usr=\"c:objc(cs)UIResponder\">UIResponder<\/Type>, <Type usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/Type>, <Type usr=\"c:objc(pl)UISplitViewControllerDelegate\">UISplitViewControllerDelegate<\/Type><\/Declaration>",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@UIApplicationMain<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AppDelegate<\/decl.name> : <ref.class usr=\"c:objc(cs)UIResponder\">UIResponder<\/ref.class>, <ref.protocol usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/ref.protocol>, <ref.protocol usr=\"c:objc(pl)UISplitViewControllerDelegate\">UISplitViewControllerDelegate<\/ref.protocol><\/decl.class>",
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.substructure" : [
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.annotated_decl" : "<Declaration>var window: <Type usr=\"c:objc(cs)UIWindow\">UIWindow<\/Type>?<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>window<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIWindow\">UIWindow<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 21,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(py)window"
+              }
+            ],
+            "key.parsed_scope.start" : 15,
+            "key.typeusr" : "_TtGSqCSo8UIWindow_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.offset" : 296,
+            "key.nameoffset" : 300,
+            "key.typename" : "UIWindow?",
+            "key.name" : "window",
+            "key.usr" : "s:vC11SourceKitty11AppDelegate6windowGSqCSo8UIWindow_",
+            "key.parsed_declaration" : "var window: UIWindow?",
+            "key.namelength" : 6,
+            "key.parsed_scope.end" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.annotated_decl" : "<Declaration>let container: <Type usr=\"c:objc(cs)NSPersistentContainer\">NSPersistentContainer<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>container<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSPersistentContainer\">NSPersistentContainer<\/ref.class><\/decl.var.type><\/decl.var.local>",
+            "key.length" : 9,
+            "key.parsed_scope.start" : 75,
+            "key.typeusr" : "_TtCSo21NSPersistentContainer",
+            "key.kind" : "source.lang.swift.decl.var.local",
+            "key.offset" : 4197,
+            "key.typename" : "NSPersistentContainer",
+            "key.name" : "container",
+            "key.usr" : "s:vFFC11SourceKitty11AppDelegateg19persistentContainerCSo21NSPersistentContainerU_FT_S1_L_9containerS1_",
+            "key.parsed_declaration" : "let container = NSPersistentContainer(name: \"SourceKitty\")",
+            "key.parsed_scope.end" : 75
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool",
+            "key.annotated_decl" : "<Declaration>func application(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>, didFinishLaunchingWithOptions launchOptions: [<Type usr=\"c:@T@UIApplicationLaunchOptionsKey\">UIApplicationLaunchOptionsKey<\/Type> : Any]?) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>application<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>didFinishLaunchingWithOptions<\/decl.var.parameter.argument_label> <decl.var.parameter.name>launchOptions<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.struct usr=\"c:@T@UIApplicationLaunchOptionsKey\">UIApplicationLaunchOptionsKey<\/ref.struct> : Any]?<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 922,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)application:didFinishLaunchingWithOptions:"
+              }
+            ],
+            "key.parsed_scope.start" : 18,
+            "key.typeusr" : "_TtFTCSo13UIApplication29didFinishLaunchingWithOptionsGSqGVs10DictionaryVSC29UIApplicationLaunchOptionsKeyP____Sb",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 324,
+            "key.nameoffset" : 329,
+            "key.typename" : "(AppDelegate) -> (UIApplication, [UIApplicationLaunchOptionsKey : Any]?) -> Bool",
+            "key.name" : "application(_:didFinishLaunchingWithOptions:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate11applicationFTCSo13UIApplication29didFinishLaunchingWithOptionsGSqGVs10DictionaryVSC29UIApplicationLaunchOptionsKeyP____Sb",
+            "key.bodyoffset" : 464,
+            "key.namelength" : 125,
+            "key.parsed_scope.end" : 29,
+            "key.bodylength" : 781
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func applicationWillResignActive(_ application: UIApplication)",
+            "key.annotated_decl" : "<Declaration>func applicationWillResignActive(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>applicationWillResignActive<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 516,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)applicationWillResignActive:"
+              }
+            ],
+            "key.parsed_scope.start" : 31,
+            "key.typeusr" : "_TtFCSo13UIApplicationT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 1252,
+            "key.nameoffset" : 1257,
+            "key.typename" : "(AppDelegate) -> (UIApplication) -> ()",
+            "key.name" : "applicationWillResignActive(_:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate27applicationWillResignActiveFCSo13UIApplicationT_",
+            "key.bodyoffset" : 1316,
+            "key.namelength" : 57,
+            "key.parsed_scope.end" : 34,
+            "key.bodylength" : 451
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func applicationDidEnterBackground(_ application: UIApplication)",
+            "key.annotated_decl" : "<Declaration>func applicationDidEnterBackground(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>applicationDidEnterBackground<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 433,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)applicationDidEnterBackground:"
+              }
+            ],
+            "key.parsed_scope.start" : 36,
+            "key.typeusr" : "_TtFCSo13UIApplicationT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 1774,
+            "key.nameoffset" : 1779,
+            "key.typename" : "(AppDelegate) -> (UIApplication) -> ()",
+            "key.name" : "applicationDidEnterBackground(_:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate29applicationDidEnterBackgroundFCSo13UIApplicationT_",
+            "key.bodyoffset" : 1840,
+            "key.namelength" : 59,
+            "key.parsed_scope.end" : 39,
+            "key.bodylength" : 366
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func applicationWillEnterForeground(_ application: UIApplication)",
+            "key.annotated_decl" : "<Declaration>func applicationWillEnterForeground(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>applicationWillEnterForeground<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 229,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)applicationWillEnterForeground:"
+              }
+            ],
+            "key.parsed_scope.start" : 41,
+            "key.typeusr" : "_TtFCSo13UIApplicationT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 2213,
+            "key.nameoffset" : 2218,
+            "key.typename" : "(AppDelegate) -> (UIApplication) -> ()",
+            "key.name" : "applicationWillEnterForeground(_:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate30applicationWillEnterForegroundFCSo13UIApplicationT_",
+            "key.bodyoffset" : 2280,
+            "key.namelength" : 60,
+            "key.parsed_scope.end" : 43,
+            "key.bodylength" : 161
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func applicationDidBecomeActive(_ application: UIApplication)",
+            "key.annotated_decl" : "<Declaration>func applicationDidBecomeActive(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>applicationDidBecomeActive<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 264,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)applicationDidBecomeActive:"
+              }
+            ],
+            "key.parsed_scope.start" : 45,
+            "key.typeusr" : "_TtFCSo13UIApplicationT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 2448,
+            "key.nameoffset" : 2453,
+            "key.typename" : "(AppDelegate) -> (UIApplication) -> ()",
+            "key.name" : "applicationDidBecomeActive(_:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate26applicationDidBecomeActiveFCSo13UIApplicationT_",
+            "key.bodyoffset" : 2511,
+            "key.namelength" : 56,
+            "key.parsed_scope.end" : 47,
+            "key.bodylength" : 200
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func applicationWillTerminate(_ application: UIApplication)",
+            "key.annotated_decl" : "<Declaration>func applicationWillTerminate(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>applicationWillTerminate<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 327,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)applicationWillTerminate:"
+              }
+            ],
+            "key.parsed_scope.start" : 49,
+            "key.typeusr" : "_TtFCSo13UIApplicationT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 2718,
+            "key.nameoffset" : 2723,
+            "key.typename" : "(AppDelegate) -> (UIApplication) -> ()",
+            "key.name" : "applicationWillTerminate(_:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate24applicationWillTerminateFCSo13UIApplicationT_",
+            "key.bodyoffset" : 2779,
+            "key.namelength" : 54,
+            "key.parsed_scope.end" : 53,
+            "key.bodylength" : 265
+          },
+          {
+            "key.name" : "MARK: - Split view",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 3054,
+            "key.length" : 18
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController:UIViewController, onto primaryViewController:UIViewController) -> Bool",
+            "key.annotated_decl" : "<Declaration>func splitViewController(_ splitViewController: <Type usr=\"c:objc(cs)UISplitViewController\">UISplitViewController<\/Type>, collapseSecondary secondaryViewController: <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type>, onto primaryViewController: <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>splitViewController<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>splitViewController<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UISplitViewController\">UISplitViewController<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>collapseSecondary<\/decl.var.parameter.argument_label> <decl.var.parameter.name>secondaryViewController<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>onto<\/decl.var.parameter.argument_label> <decl.var.parameter.name>primaryViewController<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 684,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISplitViewControllerDelegate(im)splitViewController:collapseSecondaryViewController:ontoPrimaryViewController:"
+              }
+            ],
+            "key.parsed_scope.start" : 57,
+            "key.typeusr" : "_TtFTCSo21UISplitViewController17collapseSecondaryCSo16UIViewController4ontoS0__Sb",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 3078,
+            "key.nameoffset" : 3083,
+            "key.typename" : "(AppDelegate) -> (UISplitViewController, UIViewController, UIViewController) -> Bool",
+            "key.name" : "splitViewController(_:collapseSecondary:onto:)",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate19splitViewControllerFTCSo21UISplitViewController17collapseSecondaryCSo16UIViewController4ontoS2__Sb",
+            "key.bodyoffset" : 3263,
+            "key.namelength" : 170,
+            "key.parsed_scope.end" : 65,
+            "key.bodylength" : 498
+          },
+          {
+            "key.name" : "MARK: - Core Data stack",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 3770,
+            "key.length" : 23
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.annotated_decl" : "<Declaration>lazy var persistentContainer: <Type usr=\"c:objc(cs)NSPersistentContainer\">NSPersistentContainer<\/Type> { get set }<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>lazy<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>persistentContainer<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSPersistentContainer\">NSPersistentContainer<\/ref.class><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 1557,
+            "key.parsed_scope.start" : 68,
+            "key.typeusr" : "_TtCSo21NSPersistentContainer",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.lazy"
+              }
+            ],
+            "key.offset" : 3804,
+            "key.nameoffset" : 3808,
+            "key.typename" : "NSPersistentContainer",
+            "key.name" : "persistentContainer",
+            "key.usr" : "s:vC11SourceKitty11AppDelegate19persistentContainerCSo21NSPersistentContainer",
+            "key.parsed_declaration" : "lazy var persistentContainer: NSPersistentContainer =",
+            "key.namelength" : 19,
+            "key.parsed_scope.end" : 68,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.name" : "MARK: - Core Data Saving support",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 5370,
+            "key.length" : 32
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/AppDelegate.swift",
+            "key.parsed_declaration" : "func saveContext ()",
+            "key.annotated_decl" : "<Declaration>func saveContext()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>saveContext<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 629,
+            "key.parsed_scope.start" : 97,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 5408,
+            "key.nameoffset" : 5413,
+            "key.typename" : "(AppDelegate) -> () -> ()",
+            "key.name" : "saveContext()",
+            "key.usr" : "s:FC11SourceKitty11AppDelegate11saveContextFT_T_",
+            "key.bodyoffset" : 5429,
+            "key.namelength" : 14,
+            "key.parsed_scope.end" : 109,
+            "key.bodylength" : 607
+          }
+        ],
+        "key.length" : 5836,
+        "key.runtime_name" : "_TtC8__main__11AppDelegate",
+        "key.parsed_scope.start" : 13,
+        "key.typeusr" : "_Tt",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.offset" : 204,
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.UIApplicationMain"
+          }
+        ],
+        "key.nameoffset" : 210,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 223,
+            "key.length" : 11
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 236,
+            "key.length" : 21
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 259,
+            "key.length" : 29
+          }
+        ],
+        "key.typename" : "AppDelegate.Type",
+        "key.name" : "AppDelegate",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIApplicationDelegate"
+          },
+          {
+            "key.name" : "UISplitViewControllerDelegate"
+          }
+        ],
+        "key.usr" : "s:C11SourceKitty11AppDelegate",
+        "key.bodyoffset" : 290,
+        "key.namelength" : 11,
+        "key.parsed_scope.end" : 111,
+        "key.bodylength" : 5749
+      }
+    ],
+    "key.offset" : 0,
+    "key.length" : 6042
+  }
+}, {
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.substructure" : [
+      {
+        "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+        "key.parsed_declaration" : "class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate",
+        "key.annotated_decl" : "<Declaration>class MasterViewController : <Type usr=\"c:objc(cs)UITableViewController\">UITableViewController<\/Type>, <Type usr=\"c:objc(pl)NSFetchedResultsControllerDelegate\">NSFetchedResultsControllerDelegate<\/Type><\/Declaration>",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>MasterViewController<\/decl.name> : <ref.class usr=\"c:objc(cs)UITableViewController\">UITableViewController<\/ref.class>, <ref.protocol usr=\"c:objc(pl)NSFetchedResultsControllerDelegate\">NSFetchedResultsControllerDelegate<\/ref.protocol><\/decl.class>",
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.substructure" : [
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.annotated_decl" : "<Declaration>var detailViewController: <Type usr=\"s:C11SourceKitty20DetailViewController\">DetailViewController<\/Type>?<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>detailViewController<\/decl.name>: <decl.var.type><ref.class usr=\"s:C11SourceKitty20DetailViewController\">DetailViewController<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 53,
+            "key.parsed_scope.start" : 14,
+            "key.typeusr" : "_TtGSqC11SourceKitty20DetailViewController_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.offset" : 287,
+            "key.nameoffset" : 291,
+            "key.typename" : "DetailViewController?",
+            "key.name" : "detailViewController",
+            "key.usr" : "s:vC11SourceKitty20MasterViewController20detailViewControllerGSqCS_20DetailViewController_",
+            "key.parsed_declaration" : "var detailViewController: DetailViewController? = nil",
+            "key.namelength" : 20,
+            "key.parsed_scope.end" : 14,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.annotated_decl" : "<Declaration>var managedObjectContext: <Type usr=\"c:objc(cs)NSManagedObjectContext\">NSManagedObjectContext<\/Type>?<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>managedObjectContext<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSManagedObjectContext\">NSManagedObjectContext<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 55,
+            "key.parsed_scope.start" : 15,
+            "key.typeusr" : "_TtGSqCSo22NSManagedObjectContext_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.offset" : 345,
+            "key.nameoffset" : 349,
+            "key.typename" : "NSManagedObjectContext?",
+            "key.name" : "managedObjectContext",
+            "key.usr" : "s:vC11SourceKitty20MasterViewController20managedObjectContextGSqCSo22NSManagedObjectContext_",
+            "key.parsed_declaration" : "var managedObjectContext: NSManagedObjectContext? = nil",
+            "key.namelength" : 20,
+            "key.parsed_scope.end" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func viewDidLoad()",
+            "key.annotated_decl" : "<Declaration>override func viewDidLoad()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>viewDidLoad<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 641,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)viewDidLoad"
+              }
+            ],
+            "key.parsed_scope.start" : 18,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 416,
+            "key.nameoffset" : 421,
+            "key.typename" : "(MasterViewController) -> () -> ()",
+            "key.name" : "viewDidLoad()",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController11viewDidLoadFT_T_",
+            "key.bodyoffset" : 436,
+            "key.namelength" : 13,
+            "key.parsed_scope.end" : 29,
+            "key.bodylength" : 620
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func viewWillAppear(_ animated: Bool)",
+            "key.annotated_decl" : "<Declaration>override func viewWillAppear(_ animated: <Type usr=\"s:Sb\">Bool<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>viewWillAppear<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>animated<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 169,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)viewWillAppear:"
+              }
+            ],
+            "key.parsed_scope.start" : 31,
+            "key.typeusr" : "_TtFSbT_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 1072,
+            "key.nameoffset" : 1077,
+            "key.typename" : "(MasterViewController) -> (Bool) -> ()",
+            "key.name" : "viewWillAppear(_:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController14viewWillAppearFSbT_",
+            "key.bodyoffset" : 1111,
+            "key.namelength" : 32,
+            "key.parsed_scope.end" : 34,
+            "key.bodylength" : 129
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func didReceiveMemoryWarning()",
+            "key.annotated_decl" : "<Declaration>override func didReceiveMemoryWarning()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>didReceiveMemoryWarning<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 137,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)didReceiveMemoryWarning"
+              }
+            ],
+            "key.parsed_scope.start" : 36,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 1256,
+            "key.nameoffset" : 1261,
+            "key.typename" : "(MasterViewController) -> () -> ()",
+            "key.name" : "didReceiveMemoryWarning()",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController23didReceiveMemoryWarningFT_T_",
+            "key.bodyoffset" : 1288,
+            "key.namelength" : 25,
+            "key.parsed_scope.end" : 39,
+            "key.bodylength" : 104
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func insertNewObject(_ sender: Any)",
+            "key.annotated_decl" : "<Declaration>func insertNewObject(_ sender: Any)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>insertNewObject<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>sender<\/decl.var.parameter.name>: <decl.var.parameter.type>Any<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 780,
+            "key.parsed_scope.start" : 41,
+            "key.typeusr" : "_TtFP_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 1399,
+            "key.nameoffset" : 1404,
+            "key.typename" : "(MasterViewController) -> (Any) -> ()",
+            "key.name" : "insertNewObject(_:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController15insertNewObjectFP_T_",
+            "key.bodyoffset" : 1436,
+            "key.namelength" : 30,
+            "key.parsed_scope.end" : 57,
+            "key.bodylength" : 742
+          },
+          {
+            "key.name" : "MARK: - Segues",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 2188,
+            "key.length" : 14
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func prepare(for segue: UIStoryboardSegue, sender: Any?)",
+            "key.annotated_decl" : "<Declaration>override func prepare(for segue: <Type usr=\"c:objc(cs)UIStoryboardSegue\">UIStoryboardSegue<\/Type>, sender: Any?)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepare<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>for<\/decl.var.parameter.argument_label> <decl.var.parameter.name>segue<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIStoryboardSegue\">UIStoryboardSegue<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>sender<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>Any?<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 642,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)prepareForSegue:sender:"
+              }
+            ],
+            "key.parsed_scope.start" : 61,
+            "key.typeusr" : "_TtFT3forCSo17UIStoryboardSegue6senderGSqP___T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 2217,
+            "key.nameoffset" : 2222,
+            "key.typename" : "(MasterViewController) -> (UIStoryboardSegue, Any?) -> ()",
+            "key.name" : "prepare(for:sender:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController7prepareFT3forCSo17UIStoryboardSegue6senderGSqP___T_",
+            "key.bodyoffset" : 2275,
+            "key.namelength" : 51,
+            "key.parsed_scope.end" : 71,
+            "key.bodylength" : 583
+          },
+          {
+            "key.name" : "MARK: - Table View",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 2868,
+            "key.length" : 18
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func numberOfSections(in tableView: UITableView) -> Int",
+            "key.annotated_decl" : "<Declaration>override func numberOfSections(in tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>numberOfSections<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>in<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 129,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)numberOfSectionsInTableView:"
+              }
+            ],
+            "key.parsed_scope.start" : 75,
+            "key.typeusr" : "_TtFT2inCSo11UITableView_Si",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 2901,
+            "key.nameoffset" : 2906,
+            "key.typename" : "(MasterViewController) -> (UITableView) -> Int",
+            "key.name" : "numberOfSections(in:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController16numberOfSectionsFT2inCSo11UITableView_Si",
+            "key.bodyoffset" : 2958,
+            "key.namelength" : 43,
+            "key.parsed_scope.end" : 77,
+            "key.bodylength" : 71
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, numberOfRowsInSection section: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>numberOfRowsInSection<\/decl.var.parameter.argument_label> <decl.var.parameter.name>section<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 209,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:numberOfRowsInSection:"
+              }
+            ],
+            "key.parsed_scope.start" : 79,
+            "key.typeusr" : "_TtFTCSo11UITableView21numberOfRowsInSectionSi_Si",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 3045,
+            "key.nameoffset" : 3050,
+            "key.typename" : "(MasterViewController) -> (UITableView, Int) -> Int",
+            "key.name" : "tableView(_:numberOfRowsInSection:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell\">tableView(_:cellForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12canEditRowAtV10Foundation9IndexPath_Sb\">tableView(_:canEditRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView6commitOSC27UITableViewCellEditingStyle8forRowAtV10Foundation9IndexPath_T_\">tableView(_:commit:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 3130,
+            "key.namelength" : 71,
+            "key.parsed_scope.end" : 82,
+            "key.bodylength" : 123
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, cellForRowAt indexPath: <Type usr=\"s:V10Foundation9IndexPath\">IndexPath<\/Type>) -&gt; <Type usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>cellForRowAt<\/decl.var.parameter.argument_label> <decl.var.parameter.name>indexPath<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:V10Foundation9IndexPath\">IndexPath<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 334,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:cellForRowAtIndexPath:"
+              }
+            ],
+            "key.parsed_scope.start" : 84,
+            "key.typeusr" : "_TtFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 3269,
+            "key.nameoffset" : 3274,
+            "key.typename" : "(MasterViewController) -> (UITableView, IndexPath) -> UITableViewCell",
+            "key.name" : "tableView(_:cellForRowAt:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si\">tableView(_:numberOfRowsInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12canEditRowAtV10Foundation9IndexPath_Sb\">tableView(_:canEditRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView6commitOSC27UITableViewCellEditingStyle8forRowAtV10Foundation9IndexPath_T_\">tableView(_:commit:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 3365,
+            "key.namelength" : 70,
+            "key.parsed_scope.end" : 89,
+            "key.bodylength" : 237
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, canEditRowAt indexPath: <Type usr=\"s:V10Foundation9IndexPath\">IndexPath<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>canEditRowAt<\/decl.var.parameter.argument_label> <decl.var.parameter.name>indexPath<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:V10Foundation9IndexPath\">IndexPath<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 189,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:canEditRowAtIndexPath:"
+              }
+            ],
+            "key.parsed_scope.start" : 91,
+            "key.typeusr" : "_TtFTCSo11UITableView12canEditRowAtV10Foundation9IndexPath_Sb",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 3618,
+            "key.nameoffset" : 3623,
+            "key.typename" : "(MasterViewController) -> (UITableView, IndexPath) -> Bool",
+            "key.name" : "tableView(_:canEditRowAt:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12canEditRowAtV10Foundation9IndexPath_Sb",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si\">tableView(_:numberOfRowsInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell\">tableView(_:cellForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView6commitOSC27UITableViewCellEditingStyle8forRowAtV10Foundation9IndexPath_T_\">tableView(_:commit:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 3703,
+            "key.namelength" : 70,
+            "key.parsed_scope.end" : 94,
+            "key.bodylength" : 103
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, commit editingStyle: <Type usr=\"c:@E@UITableViewCellEditingStyle\">UITableViewCellEditingStyle<\/Type>, forRowAt indexPath: <Type usr=\"s:V10Foundation9IndexPath\">IndexPath<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>commit<\/decl.var.parameter.argument_label> <decl.var.parameter.name>editingStyle<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.enum usr=\"c:@E@UITableViewCellEditingStyle\">UITableViewCellEditingStyle<\/ref.enum><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>forRowAt<\/decl.var.parameter.argument_label> <decl.var.parameter.name>indexPath<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:V10Foundation9IndexPath\">IndexPath<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 856,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:commitEditingStyle:forRowAtIndexPath:"
+              }
+            ],
+            "key.parsed_scope.start" : 96,
+            "key.typeusr" : "_TtFTCSo11UITableView6commitOSC27UITableViewCellEditingStyle8forRowAtV10Foundation9IndexPath_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 3822,
+            "key.nameoffset" : 3827,
+            "key.typename" : "(MasterViewController) -> (UITableView, UITableViewCellEditingStyle, IndexPath) -> ()",
+            "key.name" : "tableView(_:commit:forRowAt:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView6commitOSC27UITableViewCellEditingStyle8forRowAtV10Foundation9IndexPath_T_",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si\">tableView(_:numberOfRowsInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell\">tableView(_:cellForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController9tableViewFTCSo11UITableView12canEditRowAtV10Foundation9IndexPath_Sb\">tableView(_:canEditRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 3945,
+            "key.namelength" : 116,
+            "key.parsed_scope.end" : 110,
+            "key.bodylength" : 732
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func configureCell(_ cell: UITableViewCell, withEvent event: Event)",
+            "key.annotated_decl" : "<Declaration>func configureCell(_ cell: <Type usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/Type>, withEvent event: <Type usr=\"s:C11SourceKitty5Event\">Event<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>configureCell<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cell<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>withEvent<\/decl.var.parameter.argument_label> <decl.var.parameter.name>event<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"s:C11SourceKitty5Event\">Event<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 135,
+            "key.parsed_scope.start" : 112,
+            "key.typeusr" : "_TtFTCSo15UITableViewCell9withEventC11SourceKitty5Event_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 4684,
+            "key.nameoffset" : 4689,
+            "key.typename" : "(MasterViewController) -> (UITableViewCell, Event) -> ()",
+            "key.name" : "configureCell(_:withEvent:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController13configureCellFTCSo15UITableViewCell9withEventCS_5Event_T_",
+            "key.bodyoffset" : 4753,
+            "key.namelength" : 62,
+            "key.parsed_scope.end" : 114,
+            "key.bodylength" : 65
+          },
+          {
+            "key.name" : "MARK: - Fetched results controller",
+            "key.nameoffset" : 0,
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.namelength" : 0,
+            "key.offset" : 4828,
+            "key.length" : 34
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "var fetchedResultsController: NSFetchedResultsController<Event>",
+            "key.annotated_decl" : "<Declaration>var fetchedResultsController: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"s:C11SourceKitty5Event\">Event<\/Type>&gt; { get }<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fetchedResultsController<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.class usr=\"s:C11SourceKitty5Event\">Event<\/ref.class>&gt;<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 63,
+            "key.parsed_scope.start" : 118,
+            "key.typeusr" : "_TtGCSo26NSFetchedResultsControllerC11SourceKitty5Event_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.offset" : 4868,
+            "key.nameoffset" : 4872,
+            "key.typename" : "NSFetchedResultsController<Event>",
+            "key.name" : "fetchedResultsController",
+            "key.usr" : "s:vC11SourceKitty20MasterViewController24fetchedResultsControllerGCSo26NSFetchedResultsControllerCS_5Event_",
+            "key.bodyoffset" : 4933,
+            "key.namelength" : 24,
+            "key.parsed_scope.end" : 149,
+            "key.bodylength" : 1503
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.annotated_decl" : "<Declaration>var _fetchedResultsController: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"s:C11SourceKitty5Event\">Event<\/Type>&gt;?<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>_fetchedResultsController<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.class usr=\"s:C11SourceKitty5Event\">Event<\/ref.class>&gt;?<\/decl.var.type><\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 71,
+            "key.parsed_scope.start" : 150,
+            "key.typeusr" : "_TtGSqGCSo26NSFetchedResultsControllerC11SourceKitty5Event__",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.offset" : 6446,
+            "key.nameoffset" : 6450,
+            "key.typename" : "NSFetchedResultsController<Event>?",
+            "key.name" : "_fetchedResultsController",
+            "key.usr" : "s:vC11SourceKitty20MasterViewController25_fetchedResultsControllerGSqGCSo26NSFetchedResultsControllerCS_5Event__",
+            "key.parsed_declaration" : "var _fetchedResultsController: NSFetchedResultsController<Event>? = nil",
+            "key.namelength" : 25,
+            "key.parsed_scope.end" : 150,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>)",
+            "key.annotated_decl" : "<Declaration>func controllerWillChangeContent(_ controller: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/Type>&gt;)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>controllerWillChangeContent<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>controller<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.protocol usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/ref.protocol>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 142,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)NSFetchedResultsControllerDelegate(im)controllerWillChangeContent:"
+              }
+            ],
+            "key.parsed_scope.start" : 152,
+            "key.typeusr" : "_TtFGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 6523,
+            "key.nameoffset" : 6528,
+            "key.typename" : "(MasterViewController) -> (NSFetchedResultsController<NSFetchRequestResult>) -> ()",
+            "key.name" : "controllerWillChangeContent(_:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController27controllerWillChangeContentFGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__T_",
+            "key.bodyoffset" : 6621,
+            "key.namelength" : 91,
+            "key.parsed_scope.end" : 154,
+            "key.bodylength" : 43
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange sectionInfo: NSFetchedResultsSectionInfo, atSectionIndex sectionIndex: Int, for type: NSFetchedResultsChangeType)",
+            "key.annotated_decl" : "<Declaration>func controller(_ controller: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/Type>&gt;, didChange sectionInfo: <Type usr=\"c:objc(pl)NSFetchedResultsSectionInfo\">NSFetchedResultsSectionInfo<\/Type>, atSectionIndex sectionIndex: <Type usr=\"s:Si\">Int<\/Type>, for type: <Type usr=\"c:@E@NSFetchedResultsChangeType\">NSFetchedResultsChangeType<\/Type>)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>controller<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>controller<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.protocol usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/ref.protocol>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>didChange<\/decl.var.parameter.argument_label> <decl.var.parameter.name>sectionInfo<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.protocol usr=\"c:objc(pl)NSFetchedResultsSectionInfo\">NSFetchedResultsSectionInfo<\/ref.protocol><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>atSectionIndex<\/decl.var.parameter.argument_label> <decl.var.parameter.name>sectionIndex<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>for<\/decl.var.parameter.argument_label> <decl.var.parameter.name>type<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.enum usr=\"c:@E@NSFetchedResultsChangeType\">NSFetchedResultsChangeType<\/ref.enum><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 523,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)NSFetchedResultsControllerDelegate(im)controller:didChangeSection:atIndex:forChangeType:"
+              }
+            ],
+            "key.parsed_scope.start" : 156,
+            "key.typeusr" : "_TtFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangePSo27NSFetchedResultsSectionInfo_14atSectionIndexSi3forOSC26NSFetchedResultsChangeType_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 6671,
+            "key.nameoffset" : 6676,
+            "key.typename" : "(MasterViewController) -> (NSFetchedResultsController<NSFetchRequestResult>, NSFetchedResultsSectionInfo, Int, NSFetchedResultsChangeType) -> ()",
+            "key.name" : "controller(_:didChange:atSectionIndex:for:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController10controllerFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangePSo27NSFetchedResultsSectionInfo_14atSectionIndexSi3forOSC26NSFetchedResultsChangeType_T_",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController10controllerFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangeP_2atGSqV10Foundation9IndexPath_3forOSC26NSFetchedResultsChangeType12newIndexPathGSqS4___T_\">controller(_:didChange:at:for:newIndexPath:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 6876,
+            "key.namelength" : 198,
+            "key.parsed_scope.end" : 165,
+            "key.bodylength" : 317
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?)",
+            "key.annotated_decl" : "<Declaration>func controller(_ controller: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/Type>&gt;, didChange anObject: Any, at indexPath: <Type usr=\"s:V10Foundation9IndexPath\">IndexPath<\/Type>?, for type: <Type usr=\"c:@E@NSFetchedResultsChangeType\">NSFetchedResultsChangeType<\/Type>, newIndexPath: <Type usr=\"s:V10Foundation9IndexPath\">IndexPath<\/Type>?)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>controller<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>controller<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.protocol usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/ref.protocol>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>didChange<\/decl.var.parameter.argument_label> <decl.var.parameter.name>anObject<\/decl.var.parameter.name>: <decl.var.parameter.type>Any<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>at<\/decl.var.parameter.argument_label> <decl.var.parameter.name>indexPath<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:V10Foundation9IndexPath\">IndexPath<\/ref.struct>?<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>for<\/decl.var.parameter.argument_label> <decl.var.parameter.name>type<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.enum usr=\"c:@E@NSFetchedResultsChangeType\">NSFetchedResultsChangeType<\/ref.enum><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>newIndexPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:V10Foundation9IndexPath\">IndexPath<\/ref.struct>?<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 649,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)NSFetchedResultsControllerDelegate(im)controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:"
+              }
+            ],
+            "key.parsed_scope.start" : 167,
+            "key.typeusr" : "_TtFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangeP_2atGSqV10Foundation9IndexPath_3forOSC26NSFetchedResultsChangeType12newIndexPathGSqS2___T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 7200,
+            "key.nameoffset" : 7205,
+            "key.typename" : "(MasterViewController) -> (NSFetchedResultsController<NSFetchRequestResult>, Any, IndexPath?, NSFetchedResultsChangeType, IndexPath?) -> ()",
+            "key.name" : "controller(_:didChange:at:for:newIndexPath:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController10controllerFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangeP_2atGSqV10Foundation9IndexPath_3forOSC26NSFetchedResultsChangeType12newIndexPathGSqS4___T_",
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"s:FC11SourceKitty20MasterViewController10controllerFTGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__9didChangePSo27NSFetchedResultsSectionInfo_14atSectionIndexSi3forOSC26NSFetchedResultsChangeType_T_\">controller(_:didChange:atSectionIndex:for:)<\/RelatedName>"
+              }
+            ],
+            "key.bodyoffset" : 7396,
+            "key.namelength" : 189,
+            "key.parsed_scope.end" : 178,
+            "key.bodylength" : 452
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/MasterViewController.swift",
+            "key.parsed_declaration" : "func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>)",
+            "key.annotated_decl" : "<Declaration>func controllerDidChangeContent(_ controller: <Type usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/Type>&lt;<Type usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/Type>&gt;)<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>controllerDidChangeContent<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>controller<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSFetchedResultsController\">NSFetchedResultsController<\/ref.class>&lt;<ref.protocol usr=\"c:objc(pl)NSFetchRequestResult\">NSFetchRequestResult<\/ref.protocol>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 139,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)NSFetchedResultsControllerDelegate(im)controllerDidChangeContent:"
+              }
+            ],
+            "key.parsed_scope.start" : 180,
+            "key.typeusr" : "_TtFGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 7855,
+            "key.nameoffset" : 7860,
+            "key.typename" : "(MasterViewController) -> (NSFetchedResultsController<NSFetchRequestResult>) -> ()",
+            "key.name" : "controllerDidChangeContent(_:)",
+            "key.usr" : "s:FC11SourceKitty20MasterViewController26controllerDidChangeContentFGCSo26NSFetchedResultsControllerPSo20NSFetchRequestResult__T_",
+            "key.bodyoffset" : 7952,
+            "key.namelength" : 90,
+            "key.parsed_scope.end" : 182,
+            "key.bodylength" : 41
+          }
+        ],
+        "key.length" : 8383,
+        "key.runtime_name" : "_TtC8__main__20MasterViewController",
+        "key.parsed_scope.start" : 12,
+        "key.typeusr" : "_Tt",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.offset" : 194,
+        "key.nameoffset" : 200,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 222,
+            "key.length" : 21
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 245,
+            "key.length" : 34
+          }
+        ],
+        "key.typename" : "MasterViewController.Type",
+        "key.name" : "MasterViewController",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UITableViewController"
+          },
+          {
+            "key.name" : "NSFetchedResultsControllerDelegate"
+          }
+        ],
+        "key.usr" : "s:C11SourceKitty20MasterViewController",
+        "key.bodyoffset" : 281,
+        "key.namelength" : 20,
+        "key.parsed_scope.end" : 193,
+        "key.bodylength" : 8295
+      }
+    ],
+    "key.offset" : 0,
+    "key.length" : 8579
+  }
+}, {
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.substructure" : [
+      {
+        "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+        "key.parsed_declaration" : "class DetailViewController: UIViewController",
+        "key.annotated_decl" : "<Declaration>class DetailViewController : <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>DetailViewController<\/decl.name> : <ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.class>",
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.substructure" : [
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var detailDescriptionLabel: <Type usr=\"c:objc(cs)UILabel\">UILabel<\/Type>!<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>detailDescriptionLabel<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UILabel\">UILabel<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 36,
+            "key.parsed_scope.start" : 13,
+            "key.typeusr" : "_TtXwGSQCSo7UILabel_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak"
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet"
+              }
+            ],
+            "key.offset" : 245,
+            "key.nameoffset" : 249,
+            "key.typename" : "UILabel!",
+            "key.name" : "detailDescriptionLabel",
+            "key.usr" : "s:vC11SourceKitty20DetailViewController22detailDescriptionLabelXwGSQCSo7UILabel_",
+            "key.parsed_declaration" : "@IBOutlet weak var detailDescriptionLabel: UILabel!",
+            "key.namelength" : 22,
+            "key.parsed_scope.end" : 13,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal"
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.parsed_declaration" : "func configureView()",
+            "key.annotated_decl" : "<Declaration>func configureView()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>configureView<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 268,
+            "key.parsed_scope.start" : 16,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.offset" : 288,
+            "key.nameoffset" : 293,
+            "key.typename" : "(DetailViewController) -> () -> ()",
+            "key.name" : "configureView()",
+            "key.usr" : "s:FC11SourceKitty20DetailViewController13configureViewFT_T_",
+            "key.bodyoffset" : 310,
+            "key.namelength" : 15,
+            "key.parsed_scope.end" : 23,
+            "key.bodylength" : 245
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.parsed_declaration" : "override func viewDidLoad()",
+            "key.annotated_decl" : "<Declaration>override func viewDidLoad()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>viewDidLoad<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 164,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)viewDidLoad"
+              }
+            ],
+            "key.parsed_scope.start" : 25,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 571,
+            "key.nameoffset" : 576,
+            "key.typename" : "(DetailViewController) -> () -> ()",
+            "key.name" : "viewDidLoad()",
+            "key.usr" : "s:FC11SourceKitty20DetailViewController11viewDidLoadFT_T_",
+            "key.bodyoffset" : 591,
+            "key.namelength" : 13,
+            "key.parsed_scope.end" : 29,
+            "key.bodylength" : 143
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.parsed_declaration" : "override func didReceiveMemoryWarning()",
+            "key.annotated_decl" : "<Declaration>override func didReceiveMemoryWarning()<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>didReceiveMemoryWarning<\/decl.name>()<\/decl.function.method.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 137,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)didReceiveMemoryWarning"
+              }
+            ],
+            "key.parsed_scope.start" : 31,
+            "key.typeusr" : "_TtFT_T_",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override"
+              }
+            ],
+            "key.offset" : 750,
+            "key.nameoffset" : 755,
+            "key.typename" : "(DetailViewController) -> () -> ()",
+            "key.name" : "didReceiveMemoryWarning()",
+            "key.usr" : "s:FC11SourceKitty20DetailViewController23didReceiveMemoryWarningFT_T_",
+            "key.bodyoffset" : 782,
+            "key.namelength" : 25,
+            "key.parsed_scope.end" : 34,
+            "key.bodylength" : 104
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.length" : 22,
+            "key.doc.type" : "Other",
+            "key.parsed_scope.start" : 37,
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.doc.full_as_xml" : "<Other file=\"\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift\" line=\"37\" column=\"9\"><Name>detailItem<\/Name><USR>s:vC11SourceKitty20DetailViewController10detailItemGSqCS_5Event_<\/USR><Declaration>var detailItem: SourceKitty.Event? { get set }<\/Declaration><Abstract><Para>This is my detail item<\/Para><\/Abstract><\/Other>",
+            "key.nameoffset" : 928,
+            "key.typename" : "Event?",
+            "key.doc.column" : 9,
+            "key.doc.comment" : "This is my detail item",
+            "key.bodyoffset" : 948,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.doc.file" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/SourceKitty\/DetailViewController.swift",
+            "key.annotated_decl" : "<Declaration>var detailItem: <Type usr=\"s:C11SourceKitty5Event\">Event<\/Type>? { get set }<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>detailItem<\/decl.name>: <decl.var.type><ref.class usr=\"s:C11SourceKitty5Event\">Event<\/ref.class>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.doc.declaration" : "var detailItem: SourceKitty.Event? { get set }",
+            "key.typeusr" : "_TtGSqC11SourceKitty5Event_",
+            "key.offset" : 924,
+            "key.doc.line" : 37,
+            "key.doc.name" : "detailItem",
+            "key.name" : "detailItem",
+            "key.usr" : "s:vC11SourceKitty20DetailViewController10detailItemGSqCS_5Event_",
+            "key.parsed_declaration" : "var detailItem: Event?",
+            "key.namelength" : 10,
+            "key.parsed_scope.end" : 42,
+            "key.bodylength" : 97
+          }
+        ],
+        "key.length" : 872,
+        "key.runtime_name" : "_TtC8__main__20DetailViewController",
+        "key.parsed_scope.start" : 11,
+        "key.typeusr" : "_Tt",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.offset" : 178,
+        "key.nameoffset" : 184,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 206,
+            "key.length" : 16
+          }
+        ],
+        "key.typename" : "DetailViewController.Type",
+        "key.name" : "DetailViewController",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIViewController"
+          }
+        ],
+        "key.usr" : "s:C11SourceKitty20DetailViewController",
+        "key.bodyoffset" : 224,
+        "key.namelength" : 20,
+        "key.parsed_scope.end" : 45,
+        "key.bodylength" : 825
+      }
+    ],
+    "key.offset" : 0,
+    "key.length" : 1052
+  }
+}, {
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataClass.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.substructure" : [
+      {
+        "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataClass.swift",
+        "key.parsed_declaration" : "public class Event: NSManagedObject",
+        "key.annotated_decl" : "<Declaration>@objc(Event) public class Event : <Type usr=\"c:objc(cs)NSManagedObject\">NSManagedObject<\/Type><\/Declaration>",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@objc<\/syntaxtype.attribute.name>(Event)<\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>Event<\/decl.name> : <ref.class usr=\"c:objc(cs)NSManagedObject\">NSManagedObject<\/ref.class><\/decl.class>",
+        "key.accessibility" : "source.lang.swift.accessibility.public",
+        "key.length" : 33,
+        "key.runtime_name" : "Event",
+        "key.parsed_scope.start" : 14,
+        "key.typeusr" : "_Tt",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.offset" : 215,
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.objc.name"
+          }
+        ],
+        "key.nameoffset" : 221,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.offset" : 228,
+            "key.length" : 15
+          }
+        ],
+        "key.typename" : "Event.Type",
+        "key.name" : "Event",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "NSManagedObject"
+          }
+        ],
+        "key.usr" : "s:C11SourceKitty5Event",
+        "key.bodyoffset" : 245,
+        "key.namelength" : 5,
+        "key.parsed_scope.end" : 16,
+        "key.bodylength" : 2
+      }
+    ],
+    "key.offset" : 0,
+    "key.length" : 249
+  }
+}, {
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataProperties.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.substructure" : [
+      {
+        "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataClass.swift",
+        "key.annotated_decl" : "<Declaration>@objc(Event) public class Event : <Type usr=\"c:objc(cs)NSManagedObject\">NSManagedObject<\/Type><\/Declaration>",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@objc<\/syntaxtype.attribute.name>(Event)<\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>Event<\/decl.name> : <ref.class usr=\"c:objc(cs)NSManagedObject\">NSManagedObject<\/ref.class><\/decl.class>",
+        "key.substructure" : [
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataProperties.swift",
+            "key.parsed_declaration" : "@nonobjc public class func fetchRequest() -> NSFetchRequest<Event>",
+            "key.annotated_decl" : "<Declaration>@nonobjc public class func fetchRequest() -&gt; <Type usr=\"c:objc(cs)NSFetchRequest\">NSFetchRequest<\/Type>&lt;<Type usr=\"s:C11SourceKitty5Event\">Event<\/Type>&gt;<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.function.method.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@nonobjc<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fetchRequest<\/decl.name>() -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)NSFetchRequest\">NSFetchRequest<\/ref.class>&lt;<ref.class usr=\"s:C11SourceKitty5Event\">Event<\/ref.class>&gt;<\/decl.function.returntype><\/decl.function.method.class>",
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.substructure" : [
+
+            ],
+            "key.length" : 117,
+            "key.parsed_scope.start" : 16,
+            "key.typeusr" : "_TtFT_GCSo14NSFetchRequestC11SourceKitty5Event_",
+            "key.kind" : "source.lang.swift.decl.function.method.class",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.nonobjc"
+              }
+            ],
+            "key.offset" : 240,
+            "key.nameoffset" : 251,
+            "key.typename" : "(Event.Type) -> () -> NSFetchRequest<Event>",
+            "key.name" : "fetchRequest()",
+            "key.usr" : "s:ZFC11SourceKitty5Event12fetchRequestFT_GCSo14NSFetchRequestS0__",
+            "key.bodyoffset" : 292,
+            "key.namelength" : 14,
+            "key.parsed_scope.end" : 18,
+            "key.bodylength" : 64
+          },
+          {
+            "key.filepath" : "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/Event+CoreDataProperties.swift",
+            "key.annotated_decl" : "<Declaration>@NSManaged public var timestamp: <Type usr=\"c:objc(cs)NSDate\">NSDate<\/Type>? { get set }<\/Declaration>",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@NSManaged<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>timestamp<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDate\">NSDate<\/ref.class>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.length" : 22,
+            "key.parsed_scope.start" : 20,
+            "key.typeusr" : "_TtGSqCSo6NSDate_",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.NSManaged"
+              }
+            ],
+            "key.offset" : 381,
+            "key.nameoffset" : 385,
+            "key.typename" : "NSDate?",
+            "key.name" : "timestamp",
+            "key.usr" : "s:vC11SourceKitty5Event9timestampGSqCSo6NSDate_",
+            "key.parsed_declaration" : "@NSManaged public var timestamp: NSDate?",
+            "key.namelength" : 9,
+            "key.parsed_scope.end" : 20,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.public"
+          }
+        ],
+        "key.length" : 205,
+        "key.typeusr" : "_Tt",
+        "key.kind" : "source.lang.swift.decl.extension",
+        "key.offset" : 201,
+        "key.nameoffset" : 211,
+        "key.typename" : "Event.Type",
+        "key.name" : "Event",
+        "key.usr" : "s:C11SourceKitty5Event",
+        "key.bodyoffset" : 218,
+        "key.namelength" : 5,
+        "key.bodylength" : 187
+      }
+    ],
+    "key.offset" : 0,
+    "key.length" : 407
+  }
+}, {
+  "\/Users\/mkelly\/Dropbox\/development\/SwiftAlps\/sourcekitten\/SourceKitty\/build\/SourceKitty.build\/Release-iphonesimulator\/SourceKitty.build\/DerivedSources\/CoreDataGenerated\/SourceKitty\/SourceKitty+CoreDataModel.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.offset" : 0,
+    "key.length" : 202
+  }
+}]
